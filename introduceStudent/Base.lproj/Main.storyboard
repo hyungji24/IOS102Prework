@@ -110,6 +110,15 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="firstNameTextField" destination="W9H-Gs-e5U" id="g18-ie-FRY"/>
+                        <outlet property="lastNameTextField" destination="Gfo-mo-DlS" id="epO-Lx-Qpn"/>
+                        <outlet property="morePetsStepper" destination="eHW-dB-6On" id="KgZ-eM-QLv"/>
+                        <outlet property="morePetsSwitch" destination="onJ-tn-zR6" id="KhP-0R-S2c"/>
+                        <outlet property="numberOfPetsLabel" destination="bcD-b4-Eou" id="Xmj-Wd-lAW"/>
+                        <outlet property="schoolNameTextField" destination="dbP-QC-N9d" id="UXq-c0-eW6"/>
+                        <outlet property="yearSegmentedControl" destination="dkU-c6-cXk" id="Pm3-qQ-XgL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
